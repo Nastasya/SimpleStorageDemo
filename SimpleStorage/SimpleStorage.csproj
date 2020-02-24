@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exception\DuplicatedKeyValueException.cs" />
+    <Compile Include="Exception\KeyNotFoundException.cs" />
+    <Compile Include="Exception\SimpleStorageException.cs" />
+    <Compile Include="Exception\ValueModifiedByAnotherThreadException.cs" />
+    <Compile Include="ISimpleStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ObjectStorage.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
